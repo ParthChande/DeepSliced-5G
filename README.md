@@ -23,6 +23,7 @@ The model is trained on historical data or simulations to learn patterns in netw
 **4. Inference and Adaptation:**
 During runtime, the trained model predicts optimal configurations for network slices based on real-time or simulated network conditions.
 These predictions are used to dynamically allocate resources and adjust slice parameters to meet application-specific requirements.
+
 ![image](https://github.com/user-attachments/assets/caef5415-d2be-4cbd-b94c-87b75370f537) ![image](https://github.com/user-attachments/assets/5858fcab-bfba-41ab-82ba-ab0fb75d07aa)
 
 
