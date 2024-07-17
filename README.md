@@ -4,7 +4,7 @@
 The DeepSliced 5G project showcases the capabilities of network slicing in 5G networks, utilizing deep learning techniques to optimize and manage virtual network slices. This project aims to illustrate how different slices within a 5G network can dynamically adapt to varying application requirements such as bandwidth, latency, and security.
 
 # Dataset
-I'am using data from **IEEE DataPort**.
+I've used the data from **IEEE DataPort**.
 You can preprocess the data to make it filtered data which can be used to train and test our model
 
 # How It Works
