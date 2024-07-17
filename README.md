@@ -15,6 +15,7 @@ Data from simulated or real-world network environments is collected and preproce
 
 **2. Model Architecture:**
 The neural network architecture, implemented using TensorFlow/Keras, is designed to predict optimal resource allocation and slice configurations based on input data.
+![model](https://github.com/user-attachments/assets/21165406-05fc-437f-a8d0-6c68695f2745)
 
 **3. Training:**
 The model is trained on historical data or simulations to learn patterns in network behavior and optimize resource utilization across different slices.
@@ -22,6 +23,8 @@ The model is trained on historical data or simulations to learn patterns in netw
 **4. Inference and Adaptation:**
 During runtime, the trained model predicts optimal configurations for network slices based on real-time or simulated network conditions.
 These predictions are used to dynamically allocate resources and adjust slice parameters to meet application-specific requirements.
+![image](https://github.com/user-attachments/assets/caef5415-d2be-4cbd-b94c-87b75370f537) ![image](https://github.com/user-attachments/assets/5858fcab-bfba-41ab-82ba-ab0fb75d07aa)
+
 
 ## Data Preprocessing
 
@@ -87,3 +90,10 @@ Thus, the first row 1,1,1,1,0,2,1,5,1 in filtereddata.txt translates back to the
 - 1 (Slice Type) = "eMBB"
   
 Each subsequent row follows the same mapping logic. By understanding this, we can recreate the filtered data from the Excel sheet or verify if additional unique mappings are involved for other values.
+
+## Applications
+1. **Optimal Resource Allocation:** The model predicts optimal resource allocations for different network slices based on current network conditions. This can include dynamically adjusting bandwidth, latency, and security parameters to meet the specific needs of applications running on each slice.
+2. **Real-time Adaptation:** During runtime, the model continuously evaluates incoming data and makes predictions to adapt network slices in real-time. This ensures that resources are efficiently utilized and applications receive the necessary quality of service (QoS).
+3. **Scenario Testing:** Users can simulate various scenarios (e.g., high traffic, low latency requirements) using the demo interface. The model provides insights into how network slices perform under different conditions, helping users understand the benefits of network slicing in optimizing network resources.
+4. **Decision Support:** Network administrators and operators can use the demo to make informed decisions about network configurations and optimizations. Insights provided by the deep learning model can guide strategic planning and resource allocation strategies in 5G deployments.
+
