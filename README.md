@@ -7,6 +7,7 @@ The DeepSliced 5G project showcases the capabilities of network slicing in 5G ne
 I've used the data from **IEEE DataPort**.
 You can preprocess the data to make it filtered data which can be used to train and test our model
 
+```5G_Dataset_Network_Slicing_CRAWDAD_Shared.xlsx```
 # How It Works
 The core of the 5G DeepSlice Demo leverages a deep learning model to achieve efficient network slicing:
 
